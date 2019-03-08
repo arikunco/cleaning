@@ -70,13 +70,3 @@ ol_sample_drop$Country <- gsub('United Kingdom', 'Inggris', ol_sample_drop$Count
 # Spain to Spanyol
 # France to Prancis
 # Switzerland to Swiss 
-
-sapply(ol_sample,class)
-sapply(ol_sample,typeof)
-
-
-as.numeric(c("7", "7*", "7.0", "7,0")) 
-## Warning: NAs introduced by coercion 
-## [1] 7 NA 7 NA
-
-class(onlineretail$InvoiceNo)
